@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """Felicia Kenney- Project 1 - IF Conditionals"""
 
-from os import lseek
-
 
 def main():
     #gets users input for ideal location
