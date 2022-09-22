@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Felicia Kenney- Project 1 - IF Conditionals"""
 
+#imports
 from random import randint
 from colorama import Fore, init
 
+#auto resets print color after it is used
 init(autoreset=True)
 
 def main():
@@ -18,7 +20,7 @@ def main():
     #starting value for each house
     houses = { 'gryphindor' : 0 , 'hufflepuff' : 0 , 'ravenclaw': 0, 'slytherin' : 0 }
 
-    decision = [];
+    decision = []
 
     #prints banner
     print("\n=========================================  HOGWARTS SORTING HAT  =======================================================================")
