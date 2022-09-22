@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """Felicia Kenney- Project 1 - IF Conditionals"""
 
-from audioop import maxpp
 from random import randint
-from colorama import Fore, Back, Style, init
+from colorama import Fore, init
 
 init(autoreset=True)
 
