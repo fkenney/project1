@@ -148,7 +148,7 @@ def main():
     if len(decision) > 1:
 
         #prints out the two Tied decisions
-        print(f"{Fore.BLUE} Hmmm I\'m having trouble deciding should it be {decision[0]} or {decision[1]}")
+        print(f"{Fore.BLUE} Sorting Hat: Hmmm I\'m having trouble deciding should it be {decision[0]} or {decision[1]}")
         
         #random number 
         random = randint(0 , len(decision)-1)
@@ -158,7 +158,7 @@ def main():
     
     else:
        # if decision is not longer than 1 then it prints message
-       print(f"{Fore.BLUE} I know just the house for you...")
+       print(f"{Fore.BLUE} Sorting Hat: I know just the house for you...")
 
     print(Fore.GREEN + decision[0].upper())   
     
