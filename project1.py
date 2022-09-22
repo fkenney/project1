@@ -123,7 +123,7 @@ def main():
         if not(valid_friend_input):
             print( Fore.RED + "Please enter a valid number of 1, 2, 3, or 4")
 
-    #Calculates points for Question 4
+    #Calculates points for Question 5
     if friends == '1':
         houses['ravenclaw'] += 1
     elif friends == '2':   
